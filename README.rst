@@ -1,33 +1,33 @@
 
 ======================
-MLSTRUCT-FP_benchmarks
+MLStructFP_benchmarks
 ======================
 
-.. image:: https://img.shields.io/github/actions/workflow/status/MLSTRUCT/MLSTRUCT-FP_benchmarks/ci.yml?branch=master
-    :target: https://github.com/MLSTRUCT/MLSTRUCT-FP_benchmarks/actions/workflows/ci.yml
+.. image:: https://img.shields.io/github/actions/workflow/status/MLSTRUCT/MLStructFP_benchmarks/ci.yml?branch=master
+    :target: https://github.com/MLSTRUCT/MLStructFP_benchmarks/actions/workflows/ci.yml
     :alt: Build status
 
-.. image:: https://img.shields.io/github/issues/MLSTRUCT/MLSTRUCT-FP_benchmarks
-    :target: https://github.com/MLSTRUCT/MLSTRUCT-FP_benchmarks/issues
+.. image:: https://img.shields.io/github/issues/MLSTRUCT/MLStructFP_benchmarks
+    :target: https://github.com/MLSTRUCT/MLStructFP_benchmarks/issues
     :alt: Open issues
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
     :target: https://opensource.org/licenses/MIT
     :alt: License MIT
 
-Benchmarks of `MLSTRUCT-FP <https://github.com/MLSTRUCT/MLSTRUCT-FP>`_ dataset.
+Benchmarks of `MLStructFP <https://github.com/MLSTRUCT/MLStructFP>`_ dataset.
 
 
 Description
 -----------
 
 This repo contains the segmentation and vectorization models for processing our
-`MLSTRUCT-FP dataset <https://github.com/MLSTRUCT/MLSTRUCT-FP>`_. See the following
+`MLStructFP dataset <https://github.com/MLSTRUCT/MLStructFP>`_. See the following
 jupyter notebook files for more information and a quick start (in order):
 
-- `create_data <https://github.com/MLSTRUCT/MLSTRUCT-FP_benchmarks/blob/master/create_data.ipynb>`_: Creates a dataset, assembles crops, and export data session
-- `fp_unet <https://github.com/MLSTRUCT/MLSTRUCT-FP_benchmarks/blob/master/fp_unet.ipynb>`_: Creates U-Net model for wall segmentation
-- `vectorization <https://github.com/MLSTRUCT/MLSTRUCT-FP_benchmarks/blob/master/vectorization.ipynb>`_: Vectorizes a model using Egiazarian et al. method
+- `create_data <https://github.com/MLSTRUCT/MLStructFP_benchmarks/blob/master/create_data.ipynb>`_: Creates a dataset, assembles crops, and export data session
+- `fp_unet <https://github.com/MLSTRUCT/MLStructFP_benchmarks/blob/master/fp_unet.ipynb>`_: Creates U-Net model for wall segmentation
+- `vectorization <https://github.com/MLSTRUCT/MLStructFP_benchmarks/blob/master/vectorization.ipynb>`_: Vectorizes a model using Egiazarian et al. method
 
 The weights for the best model (no_rot_256_50) can be downloaded at
 `this link <https://drive.google.com/file/d/15ufkjoWOFyT0Cm-MEc9zQJCDJIooOgh7/view?usp=sharing>`_. For the vectorization model, follow the following links
@@ -44,8 +44,8 @@ To use this code, you need a Python 3.8 installation. Then, run the following se
 .. code-block:: bash
 
     # Clone this repo
-    git clone https://github.com/MLSTRUCT/MLSTRUCT-FP_benchmarks.git
-    cd MLSTRUCT-FP_benchmarks
+    git clone https://github.com/MLSTRUCT/MLStructFP_benchmarks.git
+    cd MLStructFP_benchmarks
 
     # Create conda environment & install dependencies
     conda create -n mlstructfp python=3.8
